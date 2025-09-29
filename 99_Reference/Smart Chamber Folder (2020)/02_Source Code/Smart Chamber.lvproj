@@ -17,6 +17,7 @@
 			<Item Name="Test Connection.vi" Type="VI" URL="../TestMQTT/Test Connection.vi"/>
 			<Item Name="Test in Loop.vi" Type="VI" URL="../TestMQTT/Test in Loop.vi"/>
 			<Item Name="Example from Pete.vi" Type="VI" URL="../TestMQTT/Example from Pete.vi"/>
+			<Item Name="Test in Loop_0.vi" Type="VI" URL="../TestMQTT/Test in Loop_0.vi"/>
 		</Item>
 		<Item Name="LVClass" Type="Folder">
 			<Item Name="SecureMqttCodec.lvclass" Type="LVClass" URL="../Class/SecureMqttCodec/SecureMqttCodec.lvclass"/>
