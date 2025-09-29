@@ -1,0 +1,119 @@
+
+---
+
+## ✅ MQTT Connection Checklist
+
+1. **Broker address**
+
+   * Hostname or IP (e.g., `broker.hivemq.com` or `192.168.1.10`)
+   * Port:
+
+     * **1883** → plain MQTT (no TLS)
+     * **8883** → MQTT over TLS
+     * (custom ports possible)
+
+2. **Protocol**
+
+   * MQTT v3.1, v3.1.1, or v5.0 (make sure client and broker match).
+
+3. **Topic(s)**
+
+   * The publish/subscribe topic(s) you need to use.
+   * Topic structure/naming convention (e.g., `factory/machine1/temperature`).
+
+4. **QoS level**
+
+   * 0 (at most once), 1 (at least once), or 2 (exactly once).
+
+5. **Authentication**
+
+   * **None** → open broker (rare in production).
+   * **Username/Password** → common in secured brokers.
+   * **Client certificates (TLS)** → mutual TLS for strong identity verification.
+
+6. **Certificates / Security**
+
+   * If TLS is required:
+
+     * CA certificate (to verify broker).
+     * Client certificate + key (if broker enforces mutual TLS).
+   * Decide whether to allow self-signed certs (`tls_insecure_set(True)` in Python).
+
+7. **Session options**
+
+   * **Clean session / persistent session** (whether subscriptions survive reconnects).
+   * **Client ID** (unique identifier for the client).
+
+8. **Keep Alive**
+
+   * Heartbeat interval (seconds). Client pings broker to stay connected.
+
+9. **Will message (LWT – Last Will and Testament)**
+
+   * Optional: broker publishes a predefined message if the client disconnects unexpectedly.
+   * Useful in IoT/industrial cases to signal device failure.
+
+10. **Payload format**
+
+    * JSON, binary, text, etc.
+    * Consistent encoding (UTF-8, base64, etc.).
+
+---
+
+📌 In short:
+You already had the **big three** (host, QoS, security). Add in **topics, protocol version, client ID/session, keepalive, and LWT** to cover real-world setups.
+
+
+---
+
+## ✅ MQTT 連線檢查清單
+
+1. **Broker 主機資訊**
+
+   * 主機名稱 (Hostname) 或 IP 位址
+   * Port (常見：1883 = 無加密、8883 = TLS/SSL 加密)
+
+2. **協定版本**
+
+   * MQTT v3.1 / v3.1.1 / v5.0
+
+3. **Topic 主題**
+
+   * 發布 (Publish) / 訂閱 (Subscribe) 所需的主題名稱
+   * 主題層級規劃 (例如：`factory/machine1/temperature`)
+
+4. **QoS 等級**
+
+   * 0 = 至多一次 (at most once)
+   * 1 = 至少一次 (at least once)
+   * 2 = 恰好一次 (exactly once)
+
+5. **認證方式**
+
+   * 無 (開放式，較少用)
+   * 使用者名稱 + 密碼
+   * 客戶端憑證 (Mutual TLS，雙向驗證)
+
+6. **憑證 / 安全性**
+
+   * CA 憑證（驗證 Broker 身分）
+   * Client 憑證 + 金鑰（若需要雙向 TLS 驗證）
+   * 是否允許自簽憑證 (測試用，生產環境建議關閉)
+
+7. **Session 設定**
+
+   * Clean Session（是否清除先前的連線狀態）
+   * Client ID（每個客戶端需唯一）
+
+8. **Keep Alive 保活間隔**
+
+   * 心跳時間（秒數），定期向 Broker 發送 ping
+
+9. **LWT（遺囑訊息，Last Will and Testament）**
+
+   * 用於當客戶端異常斷線時，Broker 自動發布的訊息
+
+10. **Payload 格式**
+
+    * JSON、純文字、二進位資料
+    * 統一的編碼方式（例如 UTF-8）

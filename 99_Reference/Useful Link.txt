@@ -1,0 +1,13 @@
+https://www.youtube.com/watch?v=c5qKgoB3KWU
+
+https://www.ni.com/en/solutions/industrial-machinery/smart-machine-control/a-practical-guide-for-connecting-labview-to-the-industrial-iot.html
+
+https://forums.ni.com/t5/Example-Code/MQTT-Client-API-in-native-LabVIEW/ta-p/3520582
+
+https://github.com/DAQIO/LVMQTT
+
+https://forums.ni.com/t5/Community-Documents/MQTT-Driver-for-LabVIEW/ta-p/3561289
+
+https://mosquitto.org/download/
+
+https://github.com/mqtt/mqtt.org/wiki/brokers
