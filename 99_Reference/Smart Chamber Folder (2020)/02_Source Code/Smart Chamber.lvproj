@@ -18,10 +18,13 @@
 			<Item Name="Test in Loop.vi" Type="VI" URL="../TestMQTT/Test in Loop.vi"/>
 			<Item Name="Example from Pete.vi" Type="VI" URL="../TestMQTT/Example from Pete.vi"/>
 		</Item>
-		<Item Name="CMD_0.vi" Type="VI" URL="../TestMQTT/CMD_0.vi"/>
+		<Item Name="LVClass" Type="Folder">
+			<Item Name="SecureMqttCodec.lvclass" Type="LVClass" URL="../Class/SecureMqttCodec/SecureMqttCodec.lvclass"/>
+		</Item>
 		<Item Name="json_Get_AddTopic.vi" Type="VI" URL="../TestMQTT/json_Get_AddTopic.vi"/>
-		<Item Name="json_AddRightBrace.vi" Type="VI" URL="../TestMQTT/json_AddRightBrace.vi"/>
 		<Item Name="CMD_Will.vi" Type="VI" URL="../TestMQTT/CMD_Will.vi"/>
+		<Item Name="CMD_0.vi" Type="VI" URL="../TestMQTT/CMD_0.vi"/>
+		<Item Name="json_AddRightBrace.vi" Type="VI" URL="../TestMQTT/json_AddRightBrace.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="MQTT Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/MQTT Client.lvlib"/>
