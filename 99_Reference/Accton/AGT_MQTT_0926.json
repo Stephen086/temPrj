@@ -1,0 +1,1174 @@
+{
+  //MAC 範例
+  //主機MAC: 9C6B00576F17
+  //中控主機MAC: 6805CAB81F91
+  "[topic/REG] MQTT上線註冊-CMD0": {
+    "ID": "8c7b5270-4461-3645-84a8-d798260f379b",
+    "TO": "",
+    "FROM": "9C6B00576F17",
+    "CMD": 0,
+    "CONTENT": [
+      {
+        "HOSTNAME": "SI-PC01",
+        "MAC": "9C6B00576F17",
+        "IP": "172.16.1.211"
+      }
+    ],
+    "STATUS": "",
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1719536285
+  },
+  "[topic/REG] MQTT上線註冊-CMD0(Response)": {
+    "ID": "e6c916c0-df11-45a9-8bfa-00b49346b026",
+    "TO": "9C6B00576F17",
+    "FROM": "6805CAB81F91",
+    "CMD": 0,
+    "CONTENT": [
+      {
+        "HOSTNAME": "SI-PC01",
+        "MAC": "9C6B00576F17",
+        "IP": "172.16.1.211",
+        "CENTER_NAME": "6805CAB81F91",
+        "ADD_TOPIC": "topic/PC/9C6B00576F17",
+        "REQ_ID": "8c7b5270-4461-3645-84a8-d798260f379b"
+      }
+    ],
+    "STATUS": true,
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1756342324
+  },
+  "[topic/PC/9C6B00576F17] SI對中控註冊-CMD1": {
+    "ID": "c005508f-d8c1-4039-b36c-d37dd9f875d0",
+    "TO": "6805CAB81F91",
+    "FROM": "9C6B00576F17",
+    "CMD": 1,
+    "CONTENT": [
+      {
+        "COMMAND": "SET_SI",
+        "H/P": {
+          "1": { //RACK NUMBER
+            "1": { //DUT NUMBER
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            }
+          }
+        },
+        "F/T-B": {
+          "101": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "102": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "103": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "104": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "105": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "106": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "107": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "108": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "109": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "110": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "111": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "112": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          }
+        },
+        "F/T": {
+          "201": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "202": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "203": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "204": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "205": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "206": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "207": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "208": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "209": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "210": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "211": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "212": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          }
+        }
+      }
+    ],
+    "STATUS": "",
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": "1758590005"
+  },
+  "[topic/PC/9C6B00576F17] SI對中控註冊-CMD1(Response)": {
+    "ID": "c005508f-d8c1-4039-b36c-c005508f75d0",
+    "TO": "6805CAA233E7",
+    "FROM": "6805CAB81F91",
+    "CMD": 1,
+    "CONTENT": [
+      {
+        "COMMAND": "SET_SI",
+        "H/P": {
+          "1": { //RACK NUMBER
+            "1": { //DUT NUMBER
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            }
+          }
+        },
+        "F/T-B": {
+          "101": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "102": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "103": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "104": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "105": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "106": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "107": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "108": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "109": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "110": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "111": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "112": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          }
+        },
+        "F/T": {
+          "201": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "202": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "203": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "204": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "205": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "206": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "207": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "208": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "209": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "210": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "211": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          },
+          "212": {
+            "1": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST              
+            },
+            "2": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "3": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "4": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            },
+            "5": {
+              "STATUS": "READY" //READY, MAINTAIN, CLOSE, TEST
+            }
+          }
+        },
+        "REQ_ID": "c005508f-d8c1-4039-b36c-d37dd9f875d0"
+      }
+    ],
+    "STATUS": true,
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1758590005
+  },
+  "[topic/PC/9C6B00576F17] 站點狀態-CMD3": {
+    "ID": "9c67a4e5-71cc-4fd4-b3a2-c356c70535d5",
+    "TO": "6805CAB81F91",
+    "FROM": "9C6B00576F17",
+    "CMD": 3,
+    "CONTENT": [
+      {
+        "RACK": "101",
+        "DUT": "1",
+        "STATUS": "READY" //READY, MAINTAIN, CLOSE
+      }
+    ],
+    "STATUS": "",
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865615
+  },
+  "[topic/PC/9C6B00576F17] 站點狀態-CMD3(Response)": {
+    "ID": "ac0cc47e-6714-46c6-9d0a-105aa9849fbe",
+    "TO": "9C6B00576F17",
+    "FROM": "6805CAB81F91",
+    "CMD": 3,
+    "CONTENT": [
+      {
+        "RACK": "101",
+        "DUT": "1",
+        "STATUS": "READY", //READY, MAINTAIN, CLOSE
+        "REQ_ID": "9c67a4e5-71cc-4fd4-b3a2-c356c70535d5"
+      }
+    ],
+    "STATUS": true,
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865617
+  },
+  "[topic/PC/9C6B00576F17] 確認產品狀態-CMD6": {
+    "ID": "9c67a4e5-71cc-4fd4-b3a2-c356c70535d5",
+    "TO": "6805CAB81F91",
+    "FROM": "9C6B00576F17",
+    "CMD": 6,
+    "CONTENT": [
+      {
+        "SN": "AP32023099",
+        "STATION": "F/T-B",
+        "RACK": "101"
+      }
+    ],
+    "STATUS": "",
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865615
+  },
+  "[topic/PC/9C6B00576F17] 確認產品狀態-CMD6(Response)": {
+    "ID": "ac0cc47e-6714-46c6-9d0a-105aa9849fbe",
+    "TO": "9C6B00576F17",
+    "FROM": "6805CAB81F91",
+    "CMD": 6,
+    "CONTENT": [
+      {
+        "SN": "AP32023099",
+        "RESULT": "DUT", //DUT→待測試, FAIL→直接排FAIL,                        WARN→連不上Shop Floor自動化系統直接報異常        
+        "RACK": "101",
+        "STATION": "F/T-B",
+        "REQ_ID": "9c67a4e5-71cc-4fd4-b3a2-c356c70535d5"
+      }
+    ],
+    "STATUS": true,
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865617
+  },
+  "[topic/PC/9C6B00576F17] 確認產品狀態-CMD6[FAIL](Response)": {
+    "ID": "ac0cc47e-6714-46c6-9d0a-105aa9849fbe",
+    "TO": "9C6B00576F17",
+    "FROM": "6805CAB81F91",
+    "CMD": 6,
+    "CONTENT": [
+      {
+        "SN": "AP32023099",
+        "RESULT": "FAIL",
+        "RACK": "101",
+        "STATION": "F/T-B",
+        "REQ_ID": "9c67a4e5-71cc-4fd4-b3a2-c356c70535d5"
+      }
+    ],
+    "STATUS": true,
+    "ERRCODE": "MQTT_CMD6",
+    "ERRMSG": "Station error, Real station is IPQC",
+    "TIMESTAMP": 1757865617
+  },
+  "[topic/PC/9C6B00576F17] 對治具發送指令-CMD9": {
+    "ID": "b5174697-1939-41a7-9e1a-d9464f5dd843",
+    "TO": "6805CAB81F91",
+    "FROM": "9C6B00576F17",
+    "CMD": 9,
+    "CONTENT": [
+      {
+        "RACK": 101,
+        "DUT": 1,
+        "CMD": "PWR_ON" //PWR_ON: 上電        
+      }
+    ],
+    "STATUS": "",
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865756
+  },
+  "[topic/PC/9C6B00576F17] 對治具發送指令-CMD9(Response)": {
+    "ID": "4697b517-1939-41a7-9e1a-d9464f5dd843",
+    "TO": "9C6B00576F17",
+    "FROM": "6805CAB81F91",
+    "CMD": 9,
+    "CONTENT": [
+      {
+        "RACK": 101,
+        "DUT": 1,
+        "CMD": "PWR_ON", //PWR_ON: 上電
+        "REQ_ID": "b5174697-1939-41a7-9e1a-d9464f5dd843"
+      }
+    ],
+    "STATUS": true,
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865756
+  },
+  "[topic/PC/9C6B00576F17] 測試結果通知AGT-CMD23": {
+    "ID": "b5174697-1939-41a7-9e1a-d9464f5dd843",
+    "TO": "6805CAB81F91",
+    "FROM": "9C6B00576F17",
+    "CMD": 23,
+    "CONTENT": [
+      {
+        "SN": "AP32023099",
+        "RESULT": "PASS",
+        "STATION": "F/T-B",
+        "RACK": 101,
+        "DUT": 1,
+        "DESC": "Testing PASS",
+        "SET_RACK_STATUS": "OPEN" //OPEN / CLOSE , 開關測試站
+      }
+    ],
+    "STATUS": "",
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865756
+  },
+  "[topic/PC/9C6B00576F17] 測試結果通知AGT-CMD23(Response)": {
+    "ID": "b5174697-1939-41a7-9e1a-d9464f5dd843",
+    "TO": "9C6B00576F17",
+    "FROM": "6805CAB81F91",
+    "CMD": 23,
+    "CONTENT": [
+      {
+        "SN": "AP32023099",
+        "RESULT": "PASS",
+        "STATION": "F/T-B",
+        "RACK": 101,
+        "DUT": 1,
+        "DESC": "Testing PASS",
+        "REQ_ID": "b5174697-1939-41a7-9e1a-d9464f5dd843",
+        "SET_RACK_STATUS": "OPEN" //OPEN / CLOSE, 開關測試站
+      }
+    ],
+    "STATUS": true,
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865756
+  },
+  "[topic/PC/9C6B00576F17] DUT_送入通知-CMD24": {
+    "ID": "b5174697-1939-41a7-9e1a-d9464f5dd843",
+    "TO": "6805CAB81F91",
+    "FROM": "9C6B00576F17",
+    "CMD": 24,
+    "CONTENT": [
+      {
+        "STATION": "F/T-B",
+        "RACK": 101,
+        "SN": "AP32023099",
+        "MAC_BMC": "2D;MAC1;AC81B504A499",
+        "MAC_SWITCH": "AC81B502F1B4",
+        "MAC_SCM": "AC81B504A474",
+        "DUT": 1
+      }
+    ],
+    "STATUS": "",
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865756
+  },
+  "[topic/PC/9C6B00576F17] DUT_送入通知-CMD24(Response)": {
+    "ID": "b5119397-7469-41a7-9e1a-d9464f5dd843",
+    "TO": "9C6B00576F17",
+    "FROM": "6805CAB81F91",
+    "CMD": 24,
+    "CONTENT": [
+      {
+        "STATION": "F/T-B",
+        "RACK": 101,
+        "SN": "AP32023099",
+        "MAC_BMC": "2D;MAC1;AC81B504A499",
+        "MAC_SWITCH": "AC81B502F1B4",
+        "MAC_SCM": "AC81B504A474",
+        "DUT": 1,
+        "REQ_ID": "b5174697-1939-41a7-9e1a-d9464f5dd843"
+      }
+    ],
+    "STATUS": true,
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865756
+  },
+  "[topic/PC/9C6B00576F17] DUT_排出通知-CMD25": {
+    "ID": "b5174697-1939-41a7-9e1a-d9464f5dd843",
+    "TO": "6805CAB81F91",
+    "FROM": "9C6B00576F17",
+    "CMD": 25,
+    "CONTENT": [
+      {
+        "STATION": "F/T-B",
+        "RACK": 101,
+        "DUT": 1
+      }
+    ],
+    "STATUS": "",
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865756
+  },
+  "[topic/PC/9C6B00576F17] DUT_排出通知-CMD25(Response)": {
+    "ID": "4697b517-1939-41a7-9e1a-d9464f5dd843",
+    "TO": "9C6B00576F17",
+    "FROM": "6805CAB81F91",
+    "CMD": 25,
+    "CONTENT": [
+      {
+        "STATION": "F/T-B",
+        "RACK": 101,
+        "DUT": 1,
+        "REQ_ID": "b5174697-1939-41a7-9e1a-d9464f5dd843"
+      }
+    ],
+    "STATUS": true,
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865756
+  },
+  "[topic/REG] 遺囑通知-CMD65535": {
+    "ID": "b5174697-1939-41a7-9e1a-d9464f5dd843",
+    "TO": "",
+    "FROM": "",
+    "CMD": 65535,
+    "CONTENT": [
+      {
+        "HOSTNAME": "SI-PC01",
+        "MAC": "9C6B00576F17",
+        "IP": "172.16.1.211"
+      }
+    ],
+    "STATUS": "",
+    "ERRCODE": "",
+    "ERRMSG": "",
+    "TIMESTAMP": 1757865756
+  }
+}

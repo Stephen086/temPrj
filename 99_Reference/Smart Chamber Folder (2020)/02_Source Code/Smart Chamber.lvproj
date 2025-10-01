@@ -28,9 +28,21 @@
 			<Item Name="CMD_Codec.vi" Type="VI" URL="../TestMQTT/CMD_Codec.vi"/>
 			<Item Name="CMD_Set.vi" Type="VI" URL="../TestMQTT/CMD_Set.vi"/>
 		</Item>
+		<Item Name="Ctrl" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="ReplyCMD0.ctl" Type="VI" URL="../TestMQTT/Ctrl/ReplyCMD0.ctl"/>
+			<Item Name="ReplyCMD3.ctl" Type="VI" URL="../TestMQTT/Ctrl/ReplyCMD3.ctl"/>
+			<Item Name="ReplyCMD6.ctl" Type="VI" URL="../TestMQTT/Ctrl/ReplyCMD6.ctl"/>
+			<Item Name="ReplyCMD9.ctl" Type="VI" URL="../TestMQTT/Ctrl/ReplyCMD9.ctl"/>
+			<Item Name="ReplyCMD23.ctl" Type="VI" URL="../TestMQTT/Ctrl/ReplyCMD23.ctl"/>
+			<Item Name="ReplyCMD24.ctl" Type="VI" URL="../TestMQTT/Ctrl/ReplyCMD24.ctl"/>
+			<Item Name="ReplyCMD25.ctl" Type="VI" URL="../TestMQTT/Ctrl/ReplyCMD25.ctl"/>
+		</Item>
 		<Item Name="json_Get_AddTopic.vi" Type="VI" URL="../TestMQTT/json_Get_AddTopic.vi"/>
 		<Item Name="json_RemoveComment.vi" Type="VI" URL="../TestMQTT/json_RemoveComment.vi"/>
 		<Item Name="json_AddRightBrace.vi" Type="VI" URL="../TestMQTT/json_AddRightBrace.vi"/>
+		<Item Name="Mqtt_Msg_Decode.vi" Type="VI" URL="../TestMQTT/Mqtt_Msg_Decode.vi"/>
+		<Item Name="Mqtt_Decode_CMD1_Content.vi" Type="VI" URL="../TestMQTT/Mqtt_Decode_CMD1_Content.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="MQTT Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/MQTT Client.lvlib"/>
@@ -158,13 +170,14 @@
 				<Item Name="TD_Get Enum Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Enum Information.vi"/>
 				<Item Name="TD_GetPStr.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_GetPStr.vi"/>
 				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
+				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
+				<Item Name="openg_time.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/openg_time.lvlib"/>
 			</Item>
 			<Item Name="MQTT_Functions.lvlib" Type="Library" URL="../../99_Reference/LVMQTT-master/MQTT_Functions.lvlib"/>
-			<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2025/user.lib/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
