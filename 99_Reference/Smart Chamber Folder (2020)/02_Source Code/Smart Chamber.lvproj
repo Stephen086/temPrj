@@ -16,8 +16,6 @@
 		<Item Name="Test Module" Type="Folder">
 			<Item Name="Test Connection.vi" Type="VI" URL="../TestMQTT/Test Connection.vi"/>
 			<Item Name="Test in Loop.vi" Type="VI" URL="../TestMQTT/Test in Loop.vi"/>
-			<Item Name="Example from Pete.vi" Type="VI" URL="../TestMQTT/Example from Pete.vi"/>
-			<Item Name="Test in Loop_0.vi" Type="VI" URL="../TestMQTT/Test in Loop_0.vi"/>
 		</Item>
 		<Item Name="LVClass" Type="Folder">
 			<Item Name="SecureMqttCodec.lvclass" Type="LVClass" URL="../Class/SecureMqttCodec/SecureMqttCodec.lvclass"/>
@@ -37,6 +35,7 @@
 			<Item Name="ReplyCMD23.ctl" Type="VI" URL="../TestMQTT/Ctrl/ReplyCMD23.ctl"/>
 			<Item Name="ReplyCMD24.ctl" Type="VI" URL="../TestMQTT/Ctrl/ReplyCMD24.ctl"/>
 			<Item Name="ReplyCMD25.ctl" Type="VI" URL="../TestMQTT/Ctrl/ReplyCMD25.ctl"/>
+			<Item Name="ReplyCMD65535.ctl" Type="VI" URL="../TestMQTT/Ctrl/ReplyCMD65535.ctl"/>
 		</Item>
 		<Item Name="json_Get_AddTopic.vi" Type="VI" URL="../TestMQTT/json_Get_AddTopic.vi"/>
 		<Item Name="json_RemoveComment.vi" Type="VI" URL="../TestMQTT/json_RemoveComment.vi"/>
