@@ -25,7 +25,7 @@
 		<Item Name="CMD" Type="Folder">
 			<Item Name="CMD_Will.vi" Type="VI" URL="../TestMQTT/CMD_Will.vi"/>
 			<Item Name="CMD_0.vi" Type="VI" URL="../TestMQTT/CMD_0.vi"/>
-			<Item Name="CMD_Codec.vi" Type="VI" URL="../TestMQTT/CMD_Codec.vi"/>
+			<Item Name="CMD_1.vi" Type="VI" URL="../TestMQTT/CMD_1.vi"/>
 			<Item Name="CMD_Set.vi" Type="VI" URL="../TestMQTT/CMD_Set.vi"/>
 		</Item>
 		<Item Name="Ctrl" Type="Folder">
